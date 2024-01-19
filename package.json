@@ -1,0 +1,35 @@
+{
+  "name": "speechrecognition",
+  "version": "1.0.0",
+  "description": "A free package for SpeechRecognition",
+  "main": "dist/init.js",
+  "types": "dist/init.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "speech-to-text",
+    "stt",
+    "speech synthesis"
+  ],
+  "author": "luoshenshi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoshenshi/speechrecognition.git"
+  },
+  "homepage": "https://github.com/luoshenshi/speechrecognition#readme",
+  "bugs": {
+    "url": "https://github.com/luoshenshi/speechrecognition/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/request": "^2.48.12",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "music-metadata": "^7.14.0",
+    "request": "^2.88.2"
+  }
+}
