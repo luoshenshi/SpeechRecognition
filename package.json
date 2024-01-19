@@ -1,5 +1,5 @@
 {
-  "name": "speechrecognition",
+  "name": "@luoshenshi/speechrecognition",
   "version": "1.0.0",
   "description": "A free package for SpeechRecognition",
   "main": "dist/init.js",
