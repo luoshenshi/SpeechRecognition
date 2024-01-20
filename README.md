@@ -7,7 +7,7 @@ SpeechRecognition is a free library that enables the conversion of speech into t
 To use SpeechRecognition, you first need to install it using the following command:
 
 ```bash
-npm install speechrecognition
+npm install @luoshenshi/speechrecognition
 ```
 
 ## How to Use
@@ -15,7 +15,7 @@ npm install speechrecognition
 Once you have successfully installed the library, you can use it as follows:
 
 ```javascript
-const { Recognizer } = require("speechrecognition");
+const { Recognizer } = require("@luoshenshi/speechrecognition");
 const recognizer = new Recognizer();
 
 recognizer.addListener("whenReady", () => {
